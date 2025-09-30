@@ -1,0 +1,20 @@
+{
+  "name": "2.0 Analyze Graphics - AI Trading Analyzer",
+  "short_name": "AI Trading Analyzer",
+  "description": "Advanced AI-powered trading chart analysis with real-time recommendations and pattern recognition",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity", "utilities"],
+  "lang": "fr-FR"
+}
