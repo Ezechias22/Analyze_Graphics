@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Analyze_Graphics/', // <--- Ajoute sa pou GitHub Pages
   plugins: [react()],
   build: {
     target: 'esnext',
@@ -18,7 +19,6 @@ export default defineConfig({
     }
   },
   server: {
-    // https: true, // Removed or replace with a valid HTTPS config object if needed
     host: true
   },
   optimizeDeps: {
